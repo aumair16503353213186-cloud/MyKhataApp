@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: EnisH0/buildozer-action@v1
+        uses: EnisH/buildozer-action@v1
         with:
           buildozer_version: master
           python_version: 3.8
